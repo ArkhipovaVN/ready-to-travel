@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colorBlue);
+    height: 50px;
+    padding: 0 24px;
+
+    .logo {
+        color: var(--colorWhite);
+        font-size: 28px;
+
+        & > a {
+            color: inherit;
+        }
+    }
+
+    .navigation {
+        &-list {
+            display: flex;
+            align-items: center;
+
+            &-link {
+                font-size: 18px;
+                margin-right: 16px;
+                a {
+                    color: var(--colorWhite);
+                }
+            }
+        }
+    }
+}
+
